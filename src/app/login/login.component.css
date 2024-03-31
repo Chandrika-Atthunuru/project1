@@ -1,0 +1,66 @@
+.parent{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://img.freepik.com/free-vector/cerulean-blue-curve-frame-template-vector_53876-136095.jpg?size=626&ext=jpg&ga=GA1.1.308929180.1706862949&semt=ais');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height:60%;
+    width:50%;
+    display: flex;
+
+}
+.child1{
+    height: 100%;
+    width: 50%;
+}
+.child11{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://img.freepik.com/free-photo/graphic-2d-colorful-wallpaper-with-grainy-gradients_23-2151001647.jpg?t=st=1711616633~exp=1711620233~hmac=8acd6ea077213278c0810dc0af01e6a3c0788e42bab68576eb87e8aa5cbe04fb&w=360');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size:30px ;
+        padding-bottom: 20px;
+      }
+}
+.child2{
+    height: 100%;
+    width: 50%;
+}
+form{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.child2 h1{
+    text-align: center;
+    padding-top: 50px;
+}
+input{
+    margin-top: 40px;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(161, 230, 253);
+    padding-left: 20px;
+}
+button{
+    background-color: rgb(0,63,106);
+    color: white;
+    margin-top: 40px;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+}

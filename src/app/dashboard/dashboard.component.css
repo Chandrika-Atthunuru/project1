@@ -1,0 +1,59 @@
+.parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/circuit-network-abstract-shape-diagonal-shinny-background_1409-1847.jpg?w=1380&t=st=1711689733~exp=1711690333~hmac=618f3cc3004e50856250f2bde966e8e38af42233e1d24acdee2cafc6a5a14212");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.left{
+    height: 95%;
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px grey;
+    display: flex;
+}
+.right{
+    height:91% ;
+    width: 80% ;
+}
+.right1{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(234,239,244);
+    margin-top: 30px;
+    overflow: auto; 
+    scrollbar-width: none;  
+}
+.left1{
+    height: 100%;
+    width: 19%;
+    margin-top: 30px;
+}
+.left1{
+   text-align: center;
+   h2{
+    background-color: rgb(26, 205, 218);
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 10px;
+   }
+   button{
+    height: 6%;
+    width: 75%;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+   }
+   h4{
+    margin-top: 20px;
+   }
+}

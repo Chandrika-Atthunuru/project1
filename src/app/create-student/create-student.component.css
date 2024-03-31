@@ -1,0 +1,12 @@
+label{
+    width: 130px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+input[type="date"]{
+    width: 17%;
+}
+form{
+    padding-left: 30px;
+}

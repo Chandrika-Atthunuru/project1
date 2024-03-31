@@ -1,0 +1,57 @@
+<br>
+<label for="">Filter</label>
+<input type="text" [(ngModel)]="queries.filter" (keyup)="query()">
+<label for="">Items per page: </label>
+<select name="" id="" [(ngModel)]="queries.pageno" (change)="query()">
+    <option value="">select</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+</select>
+<button class="btn btn-primary ms-4" (click)="query()">sort</button>
+<select name="" id="" [(ngModel)]="queries.sortby">
+    <option value="name">Name</option>
+</select>
+
+<select name="" id="" [(ngModel)]="queries.order">
+    <option value="asc">Ascending</option>
+    <option value="desc">Descending</option>
+</select>
+<br><br>
+<table class="table table-bordered">
+    <thead  class="table-dark" align="center" style="vertical-align: middle;">
+        <tr>
+            <th rowspan="2">Name</th>
+            <th rowspan="2">Gender</th>
+            <th rowspan="2">Phone</th>
+            <th rowspan="2">Batch</th>
+            <th colspan="2">Address</th>
+            <th rowspan="2">CompanyName</th>
+            <th rowspan="2">Package</th>
+            <th rowspan="2">Action</th>
+        </tr>
+        <tr>
+            <th>District</th>
+            <th>State</th>
+        </tr>
+    </thead>
+    <tbody style="text-align: center;">
+        <tr *ngFor="let studentdata of studentsdata">
+            <td>{{studentdata.name}}</td>
+            <td>{{studentdata.gender}}</td>
+            <td>{{studentdata.mobile}}</td>
+            <td>{{studentdata.batch}}</td>
+            <td>
+                {{studentdata.address.district}}
+            </td>
+            <td>{{studentdata.address.state}}</td>
+            <td>{{studentdata.company.name}}</td>
+            <td>{{studentdata.company.package}}</td>
+            <td>
+                <button class="btn btn-primary ">Edit</button>
+                <button class="btn btn-danger ms-4" (click)="delete(studentdata.id)">Delete</button></td>
+        </tr>
+    </tbody>
+</table>
+

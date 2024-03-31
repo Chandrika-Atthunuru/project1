@@ -1,0 +1,19 @@
+<div class="parent">
+    <div class="child">
+        <div class="child1">
+            <div class="child11">
+                <h1>Welcome To the website</h1>
+            </div>
+        </div>
+        <div class="child2">
+            <h1>Login Form</h1>
+            <form [formGroup]="userform">
+                <input type="email" placeholder="Email" formControlName="email">
+                <br>
+                <input type="password" placeholder="password" formControlName="password">
+                <br>
+                <button (click)="login()">LOGIN</button>
+            </form>
+        </div> 
+    </div>
+</div>
